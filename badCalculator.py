@@ -21,6 +21,21 @@ def sub(a,c):
     # returns total
     return a
 
+def mul(a,c):
+    # counter for while loop
+    d = 1
+    #setting e to the number that needs to be added
+    e = a
+    # loop to determine how much should be added
+    while c > d:
+        # add 1 to first number every iteration
+        a += e
+        d += 1
+    # returns total
+    return a
+
+
+
 #getting input for first number
 a = int(input('Enter First Number: '))
 #getting operator
@@ -42,7 +57,7 @@ elif b == '/':
 
 #checking to see what operator was inputted
 elif b == '*':
-    print()
+    print(mul(a,c))
 
 else:
     print('invalid operator')
