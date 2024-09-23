@@ -17,7 +17,7 @@ def divide(dividend, divisor):
 while True:
     #getting input for calculation
     firstNumber = int(input('Enter First Number: '))
-    operator = input('Enter Operator(+, -, /, *): ')
+    operator = input('Enter Operator(+, -, /, *) or anything else to quit: ')
     secondNumber = int(input('Enter Second Number: '))
 
     #call method to perform calculation
@@ -31,3 +31,4 @@ while True:
         print(multiply(firstNumber, secondNumber))
     else:
         print('Invalid Operator')
+        exit()
