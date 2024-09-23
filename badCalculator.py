@@ -53,7 +53,7 @@ elif b == '-':
 
 #checking to see what operator was inputted
 elif b == '/':
-    print()
+    print("Sorry division operator has not been implemented. Please pay $4.99 for upgrade to access premium operator :(")
 
 #checking to see what operator was inputted
 elif b == '*':
